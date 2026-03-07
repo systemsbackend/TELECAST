@@ -35,6 +35,6 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL','mongodb+srv://systemsbackend_db_user:xetwfAxvuX44Hyef@embuonline.fxtnmak.mongodb.net/?appName=embuonline'))
+    DATABASE_URL = str(getenv('DATABASE_URL','mongodb+srv://embutv:rGZwJr8WaCqRBqcx@cluster0.rcrbgdt.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL','embuonlinetv'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
