@@ -1,7 +1,7 @@
 pyrogram
-tgcrypto<=1.2.3
-aiohttp==3.8.2
-python-dotenv<=0.20.0
+tgcrypto==1.2.5
+aiohttp==3.9.5
+python-dotenv
 motor
 aiofiles
 dnspython
@@ -10,3 +10,4 @@ requests
 psutil
 pyromod
 colorama
+
